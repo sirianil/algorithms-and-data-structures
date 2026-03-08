@@ -1,0 +1,18 @@
+def two_sum_sorted(nums, target):
+    # [-5 -2 3 4 6 ]; target = 7
+    p1 = 0
+    p2 = len(nums) - 1
+
+    while (p1 < p2):
+        sum = nums[p1] + nums[p2]
+        if sum == target:
+            return [p1, p2]
+        elif sum > target:
+            p2 = p2 - 1
+        elif sum < target:
+            p1 = p1 + 1
+    
+    return []
+
+if __name__ == '__main__':
+    print(two_sum_sorted([-5, -2, 3, 4, 6], 7))
