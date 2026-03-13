@@ -29,10 +29,12 @@ def is_sorted(nums):
     return "Array is sorted"
 
 def main():
-    initial_function()
-    print_sign(-10)
-    loop_array([1, 2, 3, 4, 5, 6])
-    print(is_sorted([1]))
+    visited = [[False for i in range(2)] for i in range(2)]
+    print(visited)
+    # initial_function()
+    # print_sign(-10)
+    # loop_array([1, 2, 3, 4, 5, 6])
+    # print(is_sorted([1]))
 
 if __name__ == '__main__':
     main()
