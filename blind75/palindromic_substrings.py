@@ -3,7 +3,7 @@ Time of Start: 6:45 PM
 Time at start solutioning: -
 Time at start coding: 6:53
 time at testing: 7:01
-time at submission:
+time at submission: 7:17
 """
 
 """
