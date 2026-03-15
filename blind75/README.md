@@ -41,3 +41,12 @@ When presented with a problem, see what patterns you can take advantage of:
 8. or a sliding window? keep only valid elements in a window and increment or decrement as required in the window.
 9. for linkedLists, it is pretty standard. there will be pointer manipulation. either you move a slow and fast or move in a cycle
 10. 
+
+Notes:
+there are 2 DP problems that i have the brute force solution for, that i need to learn the dp way.
+1. pacific atlantic water
+2. word break
+3. maximum product subarray
+
+I need more practise with backtracking solutions as well:
+1. combination sum
