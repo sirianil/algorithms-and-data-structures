@@ -1,3 +1,9 @@
+from collections import deque
+
+d = deque()
+d.append(9)
+d.popleft()
+
 class Node:
     def __init__(self, value):
         self.value = value
@@ -17,6 +23,7 @@ class Node:
             print(self.rightNode.value)
     
     def assign_left_node(self, node):
+
         self.leftNode = node
 
     def assign_right_node(self, node):
@@ -28,6 +35,13 @@ def dfs(node):
     dfs(node.leftNode)
     print(node.value)
     dfs(node.rightNode)
+
+def dfs_stack(node):
+    stack = []
+    stack.append(node)
+
+    while stack:
+        popped_node = stack.pop()
 
 def construct_tree():
     parent = Node(5)
